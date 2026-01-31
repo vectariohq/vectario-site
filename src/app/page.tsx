@@ -2,9 +2,9 @@ import Link from "next/link";
 
 function ServiceCard({ title, desc }: { title: string; desc: string }) {
   return (
-    <div className="rounded-lg border border-neutral-200 p-6">
+    <div className="rounded-lg border border-neutral-200 dark:border-neutral-800 p-6">
       <h3 className="font-semibold">{title}</h3>
-      <p className="mt-2 text-neutral-700">{desc}</p>
+      <p className="mt-2 text-neutral-700 dark:text-neutral-300">{desc}</p>
     </div>
   );
 }
@@ -19,7 +19,7 @@ export default function Home() {
             Senior cloud, software, and AI engineering—built for complex systems.
           </h1>
 
-          <p className="text-lg text-neutral-700 sm:text-xl max-w-3xl">
+          <p className="text-lg text-neutral-700 dark:text-neutral-300 sm:text-xl max-w-3xl">
             Helping teams in finance, healthcare, logistics, and e-commerce design and
             deliver systems that scale and endure.
           </p>
@@ -27,13 +27,13 @@ export default function Home() {
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800"
+              className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-white"
             >
               Contact us
             </Link>
             <Link
               href="/services"
-              className="inline-flex items-center rounded-md border border-neutral-300 px-5 py-3 font-medium hover:bg-neutral-50"
+              className="inline-flex items-center rounded-md border border-neutral-300 dark:border-neutral-700 px-5 py-3 font-medium hover:bg-neutral-50 dark:hover:bg-neutral-900"
             >
               View services
             </Link>
@@ -42,30 +42,30 @@ export default function Home() {
 
         {/* Intro */}
         <section className="mt-16 space-y-5">
-          <p className="text-neutral-800 leading-relaxed font-semibold">
+          <p className="text-neutral-900 dark:text-neutral-100 leading-relaxed font-semibold">
             Vectario is a senior-led cloud, software, and AI engineering consultancy focused on
             reliable, maintainable systems.
           </p>
 
-          <p className="text-neutral-700 leading-relaxed">
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
             We can design, build, deploy, and maintain your solution—or deliver clean, maintainable
             code your team can own. We work with or without long-term commitment, and we thrive on
             repeat business and word of mouth, so quality, transparency, and communication are
             non‑negotiable.
           </p>
 
-          <p className="text-neutral-700 leading-relaxed">
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
             Whether you’re just starting and need a foundation fast, not ready for full-time hires,
             or need an extra senior engineer to get something over the finish line—we can help.
           </p>
 
-          <p className="text-neutral-700 leading-relaxed">
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
             Our backgrounds span financial services (trading, banking, lending), healthcare and
             medical systems, construction and complex logistics, e-commerce, and more—environments
             where security, reliability, and auditability matter.
           </p>
 
-          <p className="text-neutral-700 leading-relaxed">
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
             We offer full-scale delivery from concept to production: architecture, implementation,
             cloud hosting, CI/CD, monitoring, and ongoing iteration. Clients receive the same
             dashboards, metrics, and operational insights we use ourselves. We collaborate as much
@@ -73,7 +73,7 @@ export default function Home() {
             handoff.
           </p>
 
-          <p className="text-neutral-700 leading-relaxed">
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
             We build event-driven and user-driven systems—from messaging and data pipelines to APIs
             and web apps—whether you want it fully managed by us or delivered as clean, maintainable
             code your team can own.
@@ -86,7 +86,7 @@ export default function Home() {
             <h2 className="text-2xl font-semibold tracking-tight">Services</h2>
             <Link
               href="/services"
-              className="text-sm font-medium text-neutral-700 hover:text-neutral-900"
+              className="text-sm font-medium text-neutral-700 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-neutral-100"
             >
               See all →
             </Link>
@@ -113,16 +113,16 @@ export default function Home() {
         </section>
 
         {/* CTA */}
-        <section className="mt-16 rounded-lg border border-neutral-200 p-8">
+        <section className="mt-16 rounded-lg border border-neutral-200 dark:border-neutral-800 p-8">
           <h2 className="text-xl font-semibold tracking-tight">Ready to talk?</h2>
-          <p className="mt-2 text-neutral-700 max-w-2xl">
+          <p className="mt-2 text-neutral-700 dark:text-neutral-300 max-w-2xl">
             Tell us what you’re building—or what’s broken. We’ll respond with a clear next step:
             a short call, a scoped assessment, or a proposed plan.
           </p>
           <div className="mt-5">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800"
+              className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-white font-medium hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-white"
             >
               Get in touch
             </Link>
