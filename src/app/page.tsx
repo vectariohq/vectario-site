@@ -20,8 +20,8 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-neutral-700 sm:text-xl max-w-3xl">
-            Helping teams in finance, healthcare, logistics, and e-commerce design and deliver
-            systems that scale and endure.
+            Helping teams in finance, healthcare, logistics, and e-commerce design and
+            deliver systems that scale and endure.
           </p>
 
           <div className="flex flex-wrap gap-3 pt-2">
@@ -43,25 +43,40 @@ export default function Home() {
         {/* Intro */}
         <section className="mt-16 space-y-5">
           <p className="text-neutral-800 leading-relaxed font-semibold">
-            Vectario is a team of senior cloud, software, and AI engineers with deep experience across
-            high-stakes industries.
+            Vectario is a senior-led cloud, software, and AI engineering consultancy focused on
+            reliable, maintainable systems.
+          </p>
+
+          <p className="text-neutral-700 leading-relaxed">
+            We can design, build, deploy, and maintain your solution—or deliver clean, maintainable
+            code your team can own. We work with or without long-term commitment, and we thrive on
+            repeat business and word of mouth, so quality, transparency, and communication are
+            non‑negotiable.
+          </p>
+
+          <p className="text-neutral-700 leading-relaxed">
+            Whether you’re just starting and need a foundation fast, not ready for full-time hires,
+            or need an extra senior engineer to get something over the finish line—we can help.
           </p>
 
           <p className="text-neutral-700 leading-relaxed">
             Our backgrounds span financial services (trading, banking, lending), healthcare and
-            medical systems, construction and complex logistics, e-commerce, and more. These
-            environments demand accuracy, security, and reliability—and that’s where we excel.
+            medical systems, construction and complex logistics, e-commerce, and more—environments
+            where security, reliability, and auditability matter.
           </p>
 
           <p className="text-neutral-700 leading-relaxed">
-            We operate as a small, battle-tested team that has worked together for years. By
-            combining proven engineering discipline with modern AI-assisted development and rigorous
-            automated testing, we deliver solutions that are fast, reliable, and built to last.
+            We offer full-scale delivery from concept to production: architecture, implementation,
+            cloud hosting, CI/CD, monitoring, and ongoing iteration. Clients receive the same
+            dashboards, metrics, and operational insights we use ourselves. We collaborate as much
+            as you prefer—embedded with your team, or leading end-to-end with clear checkpoints and
+            handoff.
           </p>
 
           <p className="text-neutral-700 leading-relaxed">
-            While we specialize in complex systems, we’re equally effective at solving focused
-            problems—bringing the same rigor and ownership to every engagement.
+            We build event-driven and user-driven systems—from messaging and data pipelines to APIs
+            and web apps—whether you want it fully managed by us or delivered as clean, maintainable
+            code your team can own.
           </p>
         </section>
 
@@ -99,9 +114,7 @@ export default function Home() {
 
         {/* CTA */}
         <section className="mt-16 rounded-lg border border-neutral-200 p-8">
-          <h2 className="text-xl font-semibold tracking-tight">
-            Have a focused problem or a complex system?
-          </h2>
+          <h2 className="text-xl font-semibold tracking-tight">Ready to talk?</h2>
           <p className="mt-2 text-neutral-700 max-w-2xl">
             Tell us what you’re building—or what’s broken. We’ll respond with a clear next step:
             a short call, a scoped assessment, or a proposed plan.
