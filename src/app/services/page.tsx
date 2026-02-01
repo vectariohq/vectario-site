@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Services",
   description:
     "Cloud architecture, software engineering, and AI enablement (RAG) from a senior team built for complex systems.",
+  alternates: {
+    canonical: "/services",
+  },
 };
 
 function Card({

@@ -1,4 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Vectario",
+  },
+  description:
+    "Senior cloud, software, and AI engineering—built for complex systems. We help teams design and deliver systems that scale and endure.",
+  alternates: {
+    canonical: "/",
+  },
+};
 
 function ServiceCard({ title, desc }: { title: string; desc: string }) {
   return (
