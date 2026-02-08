@@ -53,42 +53,23 @@ export default function Home() {
         </section>
 
         {/* Intro */}
-        <section className="mt-16 space-y-5">
-          <p className="text-neutral-900 dark:text-neutral-100 leading-relaxed font-semibold">
+        <section className="mt-16 space-y-6">
+          <p className="text-neutral-900 dark:text-neutral-100 leading-relaxed font-semibold max-w-3xl">
             Vectario is a senior-led cloud, software, and AI engineering consultancy focused on
             reliable, maintainable systems.
           </p>
 
-          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            We can design, build, deploy, and maintain your solution—or deliver clean, maintainable
-            code your team can own. We work with or without long-term commitment, and we thrive on
-            repeat business and word of mouth, so quality, transparency, and communication are
-            non‑negotiable.
-          </p>
+          <ul className="list-disc pl-5 space-y-2 text-neutral-700 dark:text-neutral-300 max-w-3xl">
+            <li>You need a foundation fast and want to avoid costly rewrites.</li>
+            <li>You’re not ready for full-time hires, but still need senior execution.</li>
+            <li>You need an extra senior engineer to get something over the finish line.</li>
+          </ul>
 
-          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            Whether you’re just starting and need a foundation fast, not ready for full-time hires,
-            or need an extra senior engineer to get something over the finish line—we can help.
-          </p>
-
-          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            Our backgrounds span financial services (trading, banking, lending), healthcare and
-            medical systems, construction and complex logistics, e-commerce, and more—environments
-            where security, reliability, and auditability matter.
-          </p>
-
-          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            We offer full-scale delivery from concept to production: architecture, implementation,
-            cloud hosting, CI/CD, monitoring, and ongoing iteration. Clients receive the same
-            dashboards, metrics, and operational insights we use ourselves. We collaborate as much
-            as you prefer—embedded with your team, or leading end-to-end with clear checkpoints and
-            handoff.
-          </p>
-
-          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            We build event-driven and user-driven systems—from messaging and data pipelines to APIs
-            and web apps—whether you want it fully managed by us or delivered as clean, maintainable
-            code your team can own.
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed max-w-3xl">
+            Want more detail on how we work and what we build?{" "}
+            <Link href="/about" className="font-medium hover:underline">
+              Read about us →
+            </Link>
           </p>
         </section>
 
@@ -126,10 +107,11 @@ export default function Home() {
 
         {/* CTA */}
         <section className="mt-16 rounded-lg border border-neutral-200 dark:border-neutral-800 p-8">
-          <h2 className="text-xl font-semibold tracking-tight">Ready to talk?</h2>
+          <h2 className="text-xl font-semibold tracking-tight">No sales pitch, no pressure</h2>
           <p className="mt-2 text-neutral-700 dark:text-neutral-300 max-w-2xl">
-            Tell us what you’re building—or what’s broken. We’ll respond with a clear next step:
-            a short call, a scoped assessment, or a proposed plan.
+            All questions are welcome. We do this because we love it. Tell us what you’re
+            building—or what’s broken—and we’ll respond with a clear next step: a short call, a
+            scoped assessment, or a proposed plan, or simple advice.
           </p>
           <div className="mt-5">
             <Link
